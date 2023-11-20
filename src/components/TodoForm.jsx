@@ -13,13 +13,13 @@ const TodoForm = ({ addTodo }) => {
       <TextField
         fullWidth
         id="outlined-basic"
-        label="Outlined"
+        label="Add Your Tasks"
         variant="outlined"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
       <Button type="submit" variant="outlined">
-        Outlined
+        Submit
       </Button>
     </form>
   );
